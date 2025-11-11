@@ -2,6 +2,12 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pyd
+*.pyo
 
 # C extensions
 *.so
@@ -186,7 +192,7 @@ cython_debug/
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
+.vscode/
 
 # Ruff stuff:
 .ruff_cache/
@@ -205,3 +211,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# audio & midi files
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+*.mid
+*.midi
+
+# raw dataset
+audio_raw/
+audio_clips/
+midis/
+datasets/
+data/
+
+# exported features
+spectrograms/
+features/
+
+# Logs
+logs/
+*.log
+
+# Model weights
+models/
+checkpoints/
+
+# =====================================
+# OS / EDITOR
+# =====================================
+.DS_Store
+Thumbs.db
+
