@@ -220,6 +220,7 @@ __marimo__/
 *.ogg
 *.mid
 *.midi
+*.txt
 
 # raw dataset
 audio_raw/
