@@ -1,3 +1,5 @@
+## Cleaning songs list from the dataset (remove space, remove comma and period, only accept http address)
+
 import os
 import glob
 
@@ -19,7 +21,7 @@ def clean_line(line):
     if not original:
         return None, original
 
-    # kalau mengandung koma → ambil sebelum koma
+    # kalau mengandung koma ambil sebelum koma
     if "," in original:
         original_before_clean = original
         cleaned = original.split(",")[0]
