@@ -38,8 +38,8 @@ def check_all_urls(urls):
     return alive, dead
 
 def save_logs(valid, dead):
-    valid_path = os.path.join(LOG_DIR, "valid_links.txt")
-    dead_path = os.path.join(LOG_DIR, "dead_links.txt")
+    valid_path = "data/valid_links.txt"
+    dead_path = "data/dead_links.txt"
 
     with open(valid_path, "w") as f:
         for url in valid:
