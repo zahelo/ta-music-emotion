@@ -7,7 +7,7 @@ from multiprocessing import Pool, cpu_count
 
 
 # config
-URL_FILE = "clean_links.txt"
+URL_FILE = "data/clean_links.txt"
 AUDIO_OUTPUT_DIR = "audio_raw"
 
 os.makedirs(AUDIO_OUTPUT_DIR, exist_ok=True)
